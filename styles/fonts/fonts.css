@@ -8,3 +8,7 @@ h1,h2,h3,h4,h5,h6,button {
 p,a,li {
     font-family: 'Arimo', sans-serif;
 }
+
+li:hover {
+  border-bottom: 1px solid #fff;
+}

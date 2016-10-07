@@ -1,4 +1,4 @@
 routerApp
-  .controller('locationsCtrl', function($scope, $stateParams, mainSrv){
-    $scope.test = "This test worked!";
+  .controller('locationsCtrl', function($scope, mainSrv){
+    $scope.packageData = mainSrv.travelInfo;
 });
